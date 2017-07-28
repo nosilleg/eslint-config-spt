@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-spt-modules",
+  "version": "5.0.0-alpha-1",
+  "description": "ESLint settings for SPT",
+  "main": "index.js",
+  "repository": "spt-advertising/eslint-config-spt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Jason Ellison",
+    "email": "code@nosilleg.com"
+  }
+}

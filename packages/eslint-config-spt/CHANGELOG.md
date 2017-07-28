@@ -1,3 +1,9 @@
+# 5.0.0-alpha-1
+- Use airbnb as initial extends
+- Use eslint-plugin-unicorn
+- Use eslint-plugin-prettier
+- Use eslint-config-prettier
+
 # 3.0.0
 - Extract all React rules into its own `react` package
 

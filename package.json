@@ -1,20 +1,22 @@
 {
   "name": "schibsted-style",
   "version": "0.0.0",
-  "description": "Meta package for ESLint settings for Schibsted",
+  "description": "Meta package for ESLint settings for Schibsted SPT",
   "private": true,
-  "repository": "schibsted/eslint-config-schibsted",
+  "repository": "spt-advertising/eslint-config-spt",
   "license": "MIT",
   "scripts": {
-    "install": "npm run install:schibsted && npm run install:schibsted-react",
-    "install:schibsted": "cd packages/eslint-config-schibsted && yarn",
-    "install:schibsted-react": "cd packages/eslint-config-schibsted-react && yarn",
-    "test": "npm run test:schibsted && npm run test:schibsted-react",
-    "test:schibsted": "cd packages/eslint-config-schibsted && npm test",
-    "test:schibsted-react": "cd packages/eslint-config-schibsted-react && npm test"
+    "lint": "./packages/eslint-config-spt/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-spt/prettier-strict.js --ignore-pattern node_modules",
+    "lint:fix": "./packages/eslint-config-spt/node_modules/.bin/eslint . --ext .js --config ./packages/eslint-config-spt/prettier-strict.js --ignore-pattern node_modules --fix && ./packages/eslint-config-spt/node_modules/.bin/prettier \"**/*.[js,jsx,json]\" --write",
+    "install": "npm run install:spt && npm run install:spt-react",
+    "install:spt": "cd packages/eslint-config-spt && yarn",
+    "install:spt-react": "cd packages/eslint-config-spt-react && yarn",
+    "test": "npm run test:spt && npm run test:spt-react",
+    "test:spt": "cd packages/eslint-config-spt && npm test",
+    "test:spt-react": "cd packages/eslint-config-spt-react && npm test"
   },
   "author": {
     "name": "Jason Ellison",
-    "email": "code@nosilleg.com"
+    "email": "jason.ellison@schibsted.com"
   }
 }

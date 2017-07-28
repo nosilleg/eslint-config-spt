@@ -1,18 +1,13 @@
 {
-  "name": "eslint-config-schibsted",
-  "version": "4.0.0",
+  "name": "eslint-config-spt-node",
+  "version": "5.0.0-alpha-1",
   "description": "ESLint settings for SPT",
   "main": "index.js",
-  "repository": "schibsted/eslint-config-schibsted",
+  "repository": "spt-advertising/eslint-config-spt",
   "license": "MIT",
-  "scripts": {
-    "test": "eslint ."
-  },
   "devDependencies": {
-    "eslint": "^4.1.1"
-  },
-  "peerDependencies": {
-    "eslint": "^4.1.1"
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1"
   },
   "keywords": [
     "eslint",

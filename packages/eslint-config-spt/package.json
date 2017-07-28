@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-spt",
+  "version": "5.0.0-alpha-1",
+  "description": "ESLint settings for SPT",
+  "main": "index.js",
+  "repository": "spt-advertising/eslint-config-spt",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-unicorn": "^2.1.2",
+    "prettier": "^1.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "^4.1.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Jason Ellison",
+    "email": "code@nosilleg.com"
+  }
+}
